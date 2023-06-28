@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Web App</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f2f2f2;
+        }
+        
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: #f5f2e8;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 28px;
+            margin: 0;
+            padding: 10px;
+        }
+        
+        p {
+            color: #555;
+            font-size: 16px;
+            margin: 0;
+            padding: 10px;
+        }
+        
+        .dashboard-container {
+            position: relative;
+            width: 100%;
+            height: 600px;
+            /* Adjust the height as per your requirement */
+        }
+        
+        .dashboard-container iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        main {
+            padding: 20px;
+            background-color: #fff;
+            margin-top: 20px;
+        }
+        
+        footer {
+            background-color: #f5f2e8;
+            color: #666;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+        
+        .footer-copyright {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to My Web App</h1>
+            <p>Explore insightful data visualizations powered by Power BI.</p>
+        </header>
+
+        <div class="dashboard-container">
+            <iframe src="https://app.powerbi.com/reportEmbed?reportId=7b757a8d-bea7-4ee8-8dd3-326ce30c5e23&autoAuth=true&ctid=9bb419fd-4493-4e4d-a209-ea0386f8df88" frameborder="0" allowFullScreen="true"></iframe>
+        </div>
+
+        <main>
+            <h2>About My Web App</h2>
+            <p>
+                My Web App provides powerful data insights through interactive dashboards created with Power BI. Our dashboards help you visualize and analyze data, making it easier to make informed decisions and gain valuable insights into your business.
+            </p>
+            <p>
+                Explore the embedded Power BI dashboard above to discover trends, patterns, and key metrics relevant to your organization. Use the interactive features to filter and drill down into the data and gain a deeper understanding of your business performance.
+            </p>
+        </main>
+
+        <footer>
+            <p>© 2023 My Web App. All rights reserved.</p>
+            <p class="footer-copyright">
+                Designed and developed by Mohit Soneja
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
